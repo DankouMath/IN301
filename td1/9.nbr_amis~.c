@@ -29,6 +29,6 @@ int nbr_amis(int n, int m)
 
 int main()
 {
-	nbr_amis(8,2);
+	nbr_amis(220,284);
 	return 0;
 }
