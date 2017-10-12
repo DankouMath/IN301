@@ -126,6 +126,6 @@ void suppr_doubl_tab(int tab[], int l)
 
 int main()
 {
-	int tab[5] = {1,1,1,1,5};
+	int tab[5] = {1,1,1,3,5};
 	suppr_doubl_tab(tab, 5);
 }
