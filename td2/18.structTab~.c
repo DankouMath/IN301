@@ -92,8 +92,9 @@ void triTab(tableau *t)
 }
 
 
-void inserTabTri(tableau *t, int value)
+void inserTabTri(tableau *t)
 {
+	int value = 60;
 	int j,i;
 	j=0;
 	while(value >= (*t).tab[j])
@@ -117,10 +118,12 @@ int main()
 	
 	initTab(&tab);
 	triTab(&tab);
-	inserTabTri(&tab, 5);
 	afficheTab(tab);
-	printf("%d", tab.taille);
+	printf("Taille : %d\n", tab.taille);
 
+	inserTabTri(&tab);
+	afficheTab(tab);
+	printf("Taille : %d", tab.taille);
 
 	return (0);
 }
